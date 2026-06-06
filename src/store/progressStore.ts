@@ -17,7 +17,7 @@ let bankPromise: Promise<QuestionBank> | null = null
 
 function getBank(): Promise<QuestionBank> {
   if (!bankPromise) {
-    bankPromise = fetch('/data/interview-bank.json').then(r => r.json())
+    bankPromise = fetch(import.meta.env.BASE_URL + 'data/interview-bank.json').then(r => r.json())
   }
   return bankPromise
 }
