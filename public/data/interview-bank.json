@@ -1,0 +1,2785 @@
+{
+  "meta": {
+    "title": "Interview Question Bank — Founding Product Designer",
+    "role": "Staff+ / Founding Product Designer",
+    "company": "Stealth · Thejo venture studio · AI-native tool for product teams · Fully remote",
+    "design_lead": "Shawn Park (ex-Discord)",
+    "owner": "Tommy",
+    "status": "living document",
+    "source_last_updated": "2026-06-05",
+    "version": "1.0.0",
+    "generated_at": "2026-06-06",
+    "source_file": "interview-question-bank.md",
+    "question_count": 184,
+    "category_count": 19
+  },
+  "tags": [
+    "ai",
+    "behavioral",
+    "collab",
+    "craft",
+    "critique",
+    "curveball",
+    "design-eng",
+    "design-systems",
+    "exercise",
+    "founder",
+    "leadership",
+    "logistics",
+    "motivation",
+    "portfolio",
+    "product-sense",
+    "reverse",
+    "screen",
+    "startup"
+  ],
+  "categories": [
+    {
+      "id": "recruiter-phone-screen",
+      "number": 1,
+      "name": "Recruiter / phone screen",
+      "tag": "screen",
+      "probing_for": "Basic fit, motivation, comp alignment, communication, no red flags. Low on craft, high on signal.",
+      "your_angle": "Calm, selective, specific. You're choosing, not escaping. Land the Flash→AI design-engineering throughline in 30 seconds.",
+      "notes": []
+    },
+    {
+      "id": "behavioral-career-narrative",
+      "number": 2,
+      "name": "Behavioral & career narrative",
+      "tag": "behavioral",
+      "probing_for": "Self-awareness, growth, how you handle conflict and failure. STAR structure expected.",
+      "your_angle": "25 years = range and pattern-recognition, not staleness. Pick stories that show you still ship and still retool. Lead with specificity and a real outcome, including the not-so-happy endings.",
+      "notes": []
+    },
+    {
+      "id": "motivation-fit",
+      "number": 3,
+      "name": "Motivation & fit",
+      "tag": "motivation",
+      "probing_for": "Whether you'll actually leave, whether you'll stay, whether the mission lands.",
+      "your_angle": "You've used your own client's \"we can't do remote/comp\" as the honest reason — forward-looking, no Pfizer baggage. The product *is* your wheelhouse, so conviction is genuine.",
+      "notes": []
+    },
+    {
+      "id": "design-process-craft",
+      "number": 4,
+      "name": "Design process & craft",
+      "tag": "craft",
+      "probing_for": "How you actually think, not the textbook. They've heard \"research → ideate → prototype → test\" four thousand times. Specificity and opinions win.",
+      "your_angle": "Show a process that flexes for speed, and where AI and code now sit inside it. Have opinions.",
+      "notes": []
+    },
+    {
+      "id": "portfolio-deep-dive",
+      "number": 5,
+      "name": "Portfolio deep-dive",
+      "tag": "portfolio",
+      "probing_for": "Real ownership, business context, tradeoffs, measurable impact, storytelling. Target ~18–22 min per case, leave room for questions.",
+      "your_angle": "Lead each case with the strategic bet, your specific role, the problem framing, iterations (not just final mocks), what you cut/pushed back on, cross-functional collaboration, and quantified outcome. Bring the hardships, not just the wins.",
+      "notes": [
+        "Your strongest cases to have loaded: AI-ready design system overhaul (~60 components, Shadcn vs. in-house decision) · Figma plugin (multi-day → two clicks) · VOX / Cursor / Claude Code builds · HemaSense · North Face wear-tester tool."
+      ]
+    },
+    {
+      "id": "live-design-critique-teardown",
+      "number": 6,
+      "name": "Live design critique / teardown",
+      "tag": "critique",
+      "probing_for": "Articulation, taste, structured thinking on your feet, ability to be specific and kind.",
+      "your_angle": "Use a repeatable critique frame (user goal → flow → hierarchy → interaction → edge cases → systemization). Voice the *why*, propose alternatives, welcome questions like a tech lead.",
+      "notes": []
+    },
+    {
+      "id": "product-sense-strategy",
+      "number": 7,
+      "name": "Product sense & strategy",
+      "tag": "product-sense",
+      "probing_for": "Business thinking, prioritization, metrics literacy — graded as heavily as craft at senior level.",
+      "your_angle": "You are both the *user* and a *builder* of tooling for product teams. Frame answers around time-to-value, leverage, and the design-velocity problem you've lived.",
+      "notes": []
+    },
+    {
+      "id": "design-systems",
+      "number": 8,
+      "name": "Design systems",
+      "tag": "design-systems",
+      "probing_for": "Depth here, because it's your specialty and central to the role. Expect them to go deep.",
+      "your_angle": "This is home turf. Talk tokens, governance, adoption, and — your differentiator — building systems that are *consumable by AI coding tools*.",
+      "notes": []
+    },
+    {
+      "id": "design-engineering-the-design-code-boundary",
+      "number": 9,
+      "name": "Design engineering & the design–code boundary",
+      "tag": "design-eng",
+      "probing_for": "Whether your \"design engineer\" claim is real. They may probe technically or ask you to show code/prototypes.",
+      "your_angle": "Your edge and the Flash→ActionScript→AI throughline. Be concrete about what you build, ship, and prototype in code. Don't overclaim full SWE; claim fluent design-engineering.",
+      "notes": []
+    },
+    {
+      "id": "ai-native-design",
+      "number": 10,
+      "name": "AI-native design",
+      "tag": "ai",
+      "probing_for": "Now a must-answer category. Both how you *use* AI in your workflow and how you *design* AI products. Show AI augments your creativity, not replaces it.",
+      "your_angle": "You're ahead of the curve here — you've built AI-augmented workflows and AI-ready systems. Also be ready for the ethics/trust dimension.",
+      "notes": []
+    },
+    {
+      "id": "collaboration-cross-functional",
+      "number": 11,
+      "name": "Collaboration & cross-functional",
+      "tag": "collab",
+      "probing_for": "Whether you make teams better, especially with eng and founders at close range.",
+      "your_angle": "Your code fluency makes you an unusually low-friction partner for engineers. Show concrete rituals (critique, design QA, pairing).",
+      "notes": []
+    },
+    {
+      "id": "staff-scope-leadership",
+      "number": 12,
+      "name": "Staff+ scope & leadership",
+      "tag": "leadership",
+      "probing_for": "That you operate at staff level — judgment, influence, multiplying others — even as an IC.",
+      "your_angle": "You've managed people and run craft; here you're a \"super IC\" who sets the bar and the system without needing a big org.",
+      "notes": []
+    },
+    {
+      "id": "startup-readiness",
+      "number": 13,
+      "name": "Startup readiness",
+      "tag": "startup",
+      "probing_for": "The quiet concern — can an enterprise-pharma contractor handle startup pace and ambiguity?",
+      "your_angle": "Counter with your scrappy solo building: career-ops CLI, plugins, Cursor/Claude Code experiments, Obsidian knowledge system. You ship fast and alone.",
+      "notes": []
+    },
+    {
+      "id": "founder-round-thejo-shawn",
+      "number": 14,
+      "name": "Founder round — Thejo / Shawn",
+      "tag": "founder",
+      "probing_for": "Conviction, vision-fit, intellectual partnership, whether they'd want to build alongside you. Good candidates ask deep questions back.",
+      "your_angle": "Meet them as a peer. Shawn = craft bar (Discord/Airbase); Thejo = builder who's done it twice. Show taste, opinions, and genuine curiosity about the bet.",
+      "notes": []
+    },
+    {
+      "id": "curveballs-weakness-probes",
+      "number": 15,
+      "name": "Curveballs & weakness probes",
+      "tag": "curveball",
+      "probing_for": "Composure and self-awareness on the things they're privately unsure about.",
+      "your_angle": "Name the concern before they fully press it, then reframe. Don't get defensive.",
+      "notes": []
+    },
+    {
+      "id": "take-home-design-exercise-prompts",
+      "number": 16,
+      "name": "Take-home / design exercise prompts",
+      "tag": "exercise",
+      "probing_for": "End-to-end thinking under realistic constraints. Senior loops often use a 0-to-1 brief with business constraints; sometimes a \"design jam\" or a build-it prototype given your code fluency.",
+      "your_angle": "Show the thinking, not just final mocks. Document the bet, the cuts, the tradeoffs. If you can, prototype in code to demonstrate the design-eng edge.",
+      "notes": []
+    },
+    {
+      "id": "questions-to-ask-them",
+      "number": 17,
+      "name": "Questions to ask THEM",
+      "tag": "reverse",
+      "probing_for": "(yours) Real fit, and signaling seniority. Good questions are half the interview.",
+      "your_angle": "Tailor by who you're talking to. Probe the design-eng scope, the stage, and the team.",
+      "notes": []
+    },
+    {
+      "id": "closing-logistics",
+      "number": 18,
+      "name": "Closing & logistics",
+      "tag": "logistics",
+      "probing_for": null,
+      "your_angle": null,
+      "notes": []
+    },
+    {
+      "id": "parking-lot",
+      "number": 99,
+      "name": "Parking lot",
+      "tag": null,
+      "probing_for": null,
+      "your_angle": null,
+      "notes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-0001",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "Tell me about yourself / walk me through your background.",
+      "tags": [
+        "screen"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0002",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "Why are you open to something new right now?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0003",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "What are you looking for in your next role?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0004",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "What caught your eye about this company / this role?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0005",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "What do you know about us so far?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0006",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "What's your current situation — are you employed, contracting, how soon could you start?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0007",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "Are you interviewing elsewhere? Where are you in those processes?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0008",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "This is fully remote — does that work for you long-term?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0009",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "What are your compensation expectations? (see comp prep sheet — flip it)",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0010",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "What's your timeline for making a decision?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0011",
+      "category_id": "recruiter-phone-screen",
+      "category_number": 1,
+      "subgroup": null,
+      "text": "Any questions for me before we go further?",
+      "tags": [
+        "screen"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0012",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Tell me about a project that didn't go as planned. What did you learn?",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0013",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Tell me about a time you killed your own design or reversed a strong opinion.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0014",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Tell me about the hardest design problem you've solved.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0015",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Describe a time you received tough feedback. What did you do with it?",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0016",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Tell me about a disagreement with a PM or engineer and how it resolved.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0017",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Tell me about a time you had to influence without authority.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0018",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Walk me through a project you're most proud of — and one you'd redo.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0019",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Tell me about a time you had to make a decision with incomplete information.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0020",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "How do you handle a stakeholder who overrides your design judgment?",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0021",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "Describe a time you mentored someone or leveled up a team.",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0022",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "What's a professional risk you took that didn't pay off?",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0023",
+      "category_id": "behavioral-career-narrative",
+      "category_number": 2,
+      "subgroup": null,
+      "text": "How do you stay current? What have you learned recently? (← lean into AI retooling)",
+      "tags": [
+        "behavioral"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0024",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "Why leave a stable contract for an early-stage startup?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0025",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "Why this company specifically, out of everything you could do?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0026",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "What excites you about an AI-native tool for helping product teams build faster?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0027",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "Why a founding / early-stage role at this point in your career?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0028",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "What would make this the right next move for the next 3–5 years?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0029",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "What kind of work makes you lose track of time?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0030",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "What are you optimizing for right now — money, equity, craft, autonomy, mission?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0031",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "What would make you turn this down?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0032",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "How do you feel about the ambiguity of pre-product-market-fit work?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0033",
+      "category_id": "motivation-fit",
+      "category_number": 3,
+      "subgroup": null,
+      "text": "What do you know about Shawn's and Thejo's work, and does it resonate?",
+      "tags": [
+        "motivation"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0034",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "Walk me through your end-to-end design process.",
+      "tags": [
+        "craft"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0035",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How does that process change at startup speed vs. a large org?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0036",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you go from a vague problem to a shipped solution?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0037",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you decide when something is \"good enough\" to ship?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0038",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you balance craft / polish against velocity?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0039",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you incorporate user research when there's little time or data?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0040",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "What does \"quality\" mean to you in product design?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0041",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you know when a design is right? What signals do you trust?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0042",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "What's your relationship with prototyping — lo-fi, hi-fi, code?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0043",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you handle the jump from one big idea to many edge cases (0→1 to 1→n)?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0044",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "What's a design principle you hold that others might disagree with?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0045",
+      "category_id": "design-process-craft",
+      "category_number": 4,
+      "subgroup": null,
+      "text": "How do you keep taste and consistency across a fast-moving product?",
+      "tags": [
+        "craft"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0046",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "Walk me through your strongest case study, end to end.",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0047",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "What was your specific role — solo, lead, or contributor?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0048",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "How did you define the problem? What was the strategic bet?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0049",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "What were the key tradeoffs, and what did you push back on or cut?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0050",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "What was the measurable impact? Did you revisit the metrics after launch?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0051",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "Show me a project where the outcome fell short. What happened?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0052",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "What would you have done with more time or budget?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0053",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "To what extent do you \"own\" this work? Who else touched it?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0054",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "Why did you make this specific decision over the alternatives?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0055",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "How did you collaborate with engineering and PM on this?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0056",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "Tell me about the Shadcn vs. in-house decision — how did you reason about it?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0057",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "Walk me through the Figma plugin — what problem, what impact, how did you build it?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0058",
+      "category_id": "portfolio-deep-dive",
+      "category_number": 5,
+      "subgroup": null,
+      "text": "Do you have a side project or experiment you'd want to talk about?",
+      "tags": [
+        "portfolio"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0059",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "Here's a screen / flow from our product — critique it.",
+      "tags": [
+        "critique"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0060",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "Redesign this screen for maximum activation. (interviewer shows a screen)",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0061",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "What's wrong with this onboarding flow, and how would you fix it?",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0062",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "Pick an app you use daily and tell us what you'd change.",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0063",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "What's a product with great design? What makes it great?",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0064",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "What's a recent design decision (anywhere) you strongly disagree with?",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0065",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "Critique our marketing site / our competitor's product.",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0066",
+      "category_id": "live-design-critique-teardown",
+      "category_number": 6,
+      "subgroup": null,
+      "text": "How would you improve [their product's] core loop?",
+      "tags": [
+        "critique"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0067",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "Design a tool that helps product teams build 10x faster — how would you start? (almost certain)",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0068",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "How would you measure whether a design change actually worked?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0069",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "How would you prioritize what to build first with limited resources?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0070",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "Design a 0-to-1 productivity tool for small teams.",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0071",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "What's broken about how product teams build today?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0072",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "How do you decide what *not* to build?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0073",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "What metrics would you own as the founding designer here?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0074",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "How would you think about the first 90 days of the product / your areas?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0075",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "How do you balance a single power user's needs against the broad base?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0076",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "What would a \"10x faster\" workflow actually feel like to a user?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0077",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "How would you define success for the design function in year one?",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0078",
+      "category_id": "product-sense-strategy",
+      "category_number": 7,
+      "subgroup": null,
+      "text": "Tell me about a time you influenced product strategy as a designer.",
+      "tags": [
+        "product-sense"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0079",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "Walk me through how you'd scope a design system from scratch here.",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0080",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you make a design system consumable by AI tools (Cursor, Copilot, v0)?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0081",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you balance consistency (the system) with innovation (new patterns)?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0082",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you structure tokens (color, type, spacing, motion)?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0083",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you keep design and code in sync?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0084",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you drive adoption of a design system across a team?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0085",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "When do you build in-house vs. adopt something like Shadcn? How do you decide?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0086",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you document components so both humans and AI can use them?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0087",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you handle versioning and breaking changes in a living system?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0088",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "What's the right *amount* of system for an early-stage company?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0089",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you measure the health or ROI of a design system?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0090",
+      "category_id": "design-systems",
+      "category_number": 8,
+      "subgroup": null,
+      "text": "How do you handle a designer who wants to break the system?",
+      "tags": [
+        "design-systems"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0091",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "How comfortable are you working in code? Where's the line for you?",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0092",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "How do you decide when to prototype in code vs. in Figma?",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0093",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "Tell me about something you built that lived in the browser / in production.",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0094",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "How do you collaborate with engineers — at the spec, the PR, or both?",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0095",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "What's your stack? (Figma Make, Cursor, Claude Code, React/Vite/Tailwind…)",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0096",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "How do you think about the handoff problem? Is handoff even the right model?",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0097",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "Walk me through a tool or plugin you built to speed up a workflow.",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0098",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "How do you keep prototypes from becoming throwaway?",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0099",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "Where does design engineering add the most leverage at an early-stage startup?",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0100",
+      "category_id": "design-engineering-the-design-code-boundary",
+      "category_number": 9,
+      "subgroup": null,
+      "text": "How much of this role do you *want* to be at the code edge vs. pure IC design? (← your fit question, asked back at you)",
+      "tags": [
+        "design-eng"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0101",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How do you use AI in your design workflow today? Be specific.",
+      "tags": [
+        "ai"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0102",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How would you design for an AI feature that's wrong ~5% of the time?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0103",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How do you design trust, transparency, and user control into AI products?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0104",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "Where does AI help in design, and where does it actively hurt?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0105",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How do you keep craft and taste when AI accelerates output?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0106",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How do you think about bias and inclusivity in AI-driven experiences?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0107",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "What's the role of the designer when AI can generate UI?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0108",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How would you design the \"human in the loop\" moments in an AI tool?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0109",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "What AI design pattern do you think is overused or broken right now?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0110",
+      "category_id": "ai-native-design",
+      "category_number": 10,
+      "subgroup": null,
+      "text": "How do you see the product designer's job changing over the next 2–3 years?",
+      "tags": [
+        "ai"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0111",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you work with engineers day to day?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0112",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you partner with a PM (or a founder acting as PM)?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0113",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you handle competing priorities across stakeholders?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0114",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you give and receive design critique?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0115",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "Tell me about a cross-functional conflict you navigated well.",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0116",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you communicate design decisions to non-designers?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0117",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you keep alignment without slowing everyone down?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0118",
+      "category_id": "collaboration-cross-functional",
+      "category_number": 11,
+      "subgroup": null,
+      "text": "How do you handle being the only / most senior designer in the room?",
+      "tags": [
+        "collab"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0119",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "What does operating at a staff/founding level mean to you here?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0120",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How would you set up the design function and rituals from scratch?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0121",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How do you raise the craft bar across a team without managing them?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0122",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How do you decide where to spend your own time as the senior designer?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0123",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How do you mentor or grow other designers?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0124",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How do you turn a recurring problem into a process or system improvement?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0125",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How would you tie design work to business outcomes / OKRs?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0126",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "When would you want to hire the next designer, and what would you look for?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0127",
+      "category_id": "staff-scope-leadership",
+      "category_number": 12,
+      "subgroup": null,
+      "text": "How do you earn design a seat at the table with leadership?",
+      "tags": [
+        "leadership"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0128",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "How do you handle ambiguity with no PM, no research team, no roadmap?",
+      "tags": [
+        "startup"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0129",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "Tell me about a time you wore many hats / did work outside your role.",
+      "tags": [
+        "startup"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0130",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "How do you move fast without sacrificing the things that matter?",
+      "tags": [
+        "startup"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0131",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "What's your reaction when priorities change weekly?",
+      "tags": [
+        "startup"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0132",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "How do you self-direct when no one is assigning you work?",
+      "tags": [
+        "startup"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0133",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "What have you built recently with little or no support?",
+      "tags": [
+        "startup"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0134",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "How do you handle the emotional reality of pre-PMF uncertainty?",
+      "tags": [
+        "startup"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0135",
+      "category_id": "startup-readiness",
+      "category_number": 13,
+      "subgroup": null,
+      "text": "Coming from regulated enterprise work, how will you adjust to startup chaos? (address head-on)",
+      "tags": [
+        "startup"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0136",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "Why do *you* think product teams are slow today, and what would actually fix it?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0137",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "What's your vision for how design and AI reshape how software gets built?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0138",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "What would you want to be true about this product in 12 months?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0139",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "What kind of designer do you want to become here?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0140",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "What's a strong, maybe contrarian, opinion you hold about design or AI?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0141",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "How do you think about risk — for the product and for your own career?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0142",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "What would make you say this venture is succeeding? Failing?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0143",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "Tell me about the last hypothesis you killed and what you learned.",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0144",
+      "category_id": "founder-round-thejo-shawn",
+      "category_number": 14,
+      "subgroup": null,
+      "text": "What do you need from a founder to do your best work?",
+      "tags": [
+        "founder"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0145",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "You have 25 years of experience — are you too senior / too expensive for a founding IC role? (reframe: adaptability, retooling around AI now)",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0146",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "Most of your recent work is enterprise/regulated — can you do scrappy 0-to-1? (reframe: your solo builds)",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0147",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "What's your biggest weakness as a designer?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0148",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "Where are you weakest technically, and how do you compensate?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0149",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "What kind of work do you *not* want to do?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0150",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "Why haven't you done a startup before now?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0151",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "How do we know you'll still be hungry and hands-on, not just directing?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0152",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "What would your last team say is frustrating about working with you?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0153",
+      "category_id": "curveballs-weakness-probes",
+      "category_number": 15,
+      "subgroup": null,
+      "text": "If we hire you and it's not working in 6 months, what likely went wrong?",
+      "tags": [
+        "curveball"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0154",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Design a 0-to-1 feature for [their product space] given these constraints.",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0155",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Improve a core flow in our product and justify your choices.",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0156",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Design an onboarding experience for an AI-native tool.",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0157",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Take a messy real workflow and design a 10x-faster version.",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0158",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Scope a minimal design system for a brand-new product.",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0159",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Build a working prototype of [small feature] (code or Figma Make).",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0160",
+      "category_id": "take-home-design-exercise-prompts",
+      "category_number": 16,
+      "subgroup": null,
+      "text": "Present a past project as a structured 20-minute deep dive.",
+      "tags": [
+        "exercise"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0161",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Recruiter / screen",
+      "text": "What stage and funding is the company at?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0162",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Recruiter / screen",
+      "text": "What does the interview process look like end to end?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0163",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Recruiter / screen",
+      "text": "What range is budgeted for this level?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0164",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Hiring manager / Shawn",
+      "text": "How much of this role lives at the design-engineering edge vs. pure IC design?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "high",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0165",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Hiring manager / Shawn",
+      "text": "What are the 1–2 core areas you'd want this person to own?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0166",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Hiring manager / Shawn",
+      "text": "How do you and the team think about craft vs. speed right now?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0167",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Hiring manager / Shawn",
+      "text": "What does the design function look like today, and where is it going?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0168",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Hiring manager / Shawn",
+      "text": "What's the hardest design problem the product faces right now?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0169",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Founder / Thejo",
+      "text": "What's the core bet, and what has to be true for it to win?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0170",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Founder / Thejo",
+      "text": "What have you learned so far that surprised you?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0171",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Founder / Thejo",
+      "text": "How do you want design to influence product direction, not just execution?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0172",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Founder / Thejo",
+      "text": "What's the runway and the next big milestone?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0173",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Anyone",
+      "text": "What would success in this role look like at 3, 6, and 12 months?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0174",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Anyone",
+      "text": "What's it like to work here on a hard day?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0175",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Anyone",
+      "text": "Why is this role open / why now?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0176",
+      "category_id": "questions-to-ask-them",
+      "category_number": 17,
+      "subgroup": "Anyone",
+      "text": "What's the biggest risk to the company you'd want me to know going in?",
+      "tags": [
+        "reverse"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0177",
+      "category_id": "closing-logistics",
+      "category_number": 18,
+      "subgroup": null,
+      "text": "Are you considering other roles, and how does this compare?",
+      "tags": [
+        "logistics"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0178",
+      "category_id": "closing-logistics",
+      "category_number": 18,
+      "subgroup": null,
+      "text": "What's your timeline and decision criteria?",
+      "tags": [
+        "logistics"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0179",
+      "category_id": "closing-logistics",
+      "category_number": 18,
+      "subgroup": null,
+      "text": "What would it take for you to say yes?",
+      "tags": [
+        "logistics"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0180",
+      "category_id": "closing-logistics",
+      "category_number": 18,
+      "subgroup": null,
+      "text": "When could you start? Any notice or wind-down on your current contract?",
+      "tags": [
+        "logistics"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0181",
+      "category_id": "closing-logistics",
+      "category_number": 18,
+      "subgroup": null,
+      "text": "Compensation expectations / reaction to the range. (→ comp prep sheet)",
+      "tags": [
+        "logistics"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0182",
+      "category_id": "closing-logistics",
+      "category_number": 18,
+      "subgroup": null,
+      "text": "Anything that would stop you from accepting an offer?",
+      "tags": [
+        "logistics"
+      ],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0183",
+      "category_id": "parking-lot",
+      "category_number": 99,
+      "subgroup": null,
+      "text": "(Add role-specific questions once you've seen the full JD and met the team.)",
+      "tags": [],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    },
+    {
+      "id": "q-0184",
+      "category_id": "parking-lot",
+      "category_number": 99,
+      "subgroup": null,
+      "text": "(Add anything a real interviewer asks that isn't here — keep the bank living.)",
+      "tags": [],
+      "priority": "normal",
+      "rehearsed": false,
+      "confidence": 0,
+      "user_notes": ""
+    }
+  ]
+}
