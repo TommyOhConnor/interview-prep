@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Zap, List, LogOut } from 'lucide-react'
-import { supabase } from '@/lib/supabase'
+import { Zap, List } from 'lucide-react'
 import { useOverallStats, useCategories } from '@/hooks/useQuestions'
 import { useProgressStore } from '@/store/progressStore'
 import { useDrillSession } from '@/hooks/useDrillSession'
@@ -35,18 +34,9 @@ export function Home() {
 
   return (
     <div className="space-y-5">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-semibold">Interview Prep</h1>
-          <p className="text-xs text-muted-foreground mt-0.5">Founding Product Designer</p>
-        </div>
-        <button
-          onClick={() => supabase.auth.signOut()}
-          className="p-2 rounded-lg text-muted-foreground hover:bg-accent transition-colors"
-          title="Sign out"
-        >
-          <LogOut className="w-4 h-4" />
-        </button>
+      <div>
+        <h1 className="text-xl font-semibold">Interview Prep</h1>
+        <p className="text-xs text-muted-foreground mt-0.5">Founding Product Designer</p>
       </div>
 
       {/* Main stats */}

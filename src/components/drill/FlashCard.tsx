@@ -53,6 +53,14 @@ export function FlashCard({ question, flipped, onFlip }: Props) {
                 </p>
                 <p className="text-sm leading-relaxed">{question.category.your_angle}</p>
               </div>
+              {question.user_notes && (
+                <div className="space-y-1">
+                  <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
+                    Your notes
+                  </p>
+                  <p className="text-sm leading-relaxed whitespace-pre-wrap">{question.user_notes}</p>
+                </div>
+              )}
             </div>
           </motion.div>
         )}
